@@ -14,8 +14,9 @@
             android:id="@+id/textViewtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="5"
+            android:layout_weight="6"
             android:text="Title"
+            android:textAlignment="viewStart"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -23,9 +24,9 @@
             android:id="@+id/textViewYear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:text="Year"
-            android:textAlignment="viewStart" />
+            android:textAlignment="viewEnd" />
 
     </LinearLayout>
 
